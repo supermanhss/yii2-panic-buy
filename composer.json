@@ -1,0 +1,24 @@
+{
+    "name": "supermanhss/yii2-rush-buy",
+    "description": "this is a demo for rush buy use yii2 framework",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IsaacHss",
+            "email": "supermanhss@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperManHss\\RushBuy\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "SuperManHss\\RushBuy\\Bootstrap"
+    }
+}
